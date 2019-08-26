@@ -54,9 +54,9 @@ def all_winter_holiday_supplies(holiday_hash)
   winter_supplies = ""
   holiday_hash[:winter].collect do |key, array|
     winter_supplies << array.join
-    bindin.pry
   end
   winter_supplies.split(" ")
+  binding.pry
 end
 
 def all_supplies_in_holidays(holiday_hash)
